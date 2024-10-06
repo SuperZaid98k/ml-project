@@ -1,0 +1,22 @@
+<html>
+
+<body bgcolor=#d4a3ae>
+
+    <center>
+
+        <h1> Student Performance Prediction </h1><br>
+
+        <form method="POST" , action="{{url_for('home')}}">
+            <b> Hours Studied : <input type="text" , name='a' , placeholder="enter 1"> <br><br>
+                Previous Scores : <input type="text" , name='b' , placeholder="enter 2"> <br><br>
+                Sleep Hours : <input type="text" , name='c' , placeholder="enter 3"> <br><br>
+                Sample Question Papers Practiced : <input type="text" , name='d' , placeholder="enter 4">
+                <br><br><br></b>
+            <input type="submit" , value='predict!'>
+        </form>
+
+    </center>
+
+</body>
+
+</html>
